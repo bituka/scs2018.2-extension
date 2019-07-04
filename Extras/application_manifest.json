@@ -1,0 +1,19 @@
+{
+    "type": "SCS",
+    "version": "18.2.3",
+    "application": [
+        "shopping",
+        "myaccount",
+        "checkout"
+    ],
+    "extensible_resources": [
+        "skins",
+        "javascript",
+        "ssp-libraries",
+        "sass",
+        "templates",
+        "services",
+        "configuration",
+        "assets"
+    ]
+}

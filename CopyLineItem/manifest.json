@@ -1,0 +1,43 @@
+{
+    "name": "CopyLineItem",
+    "fantasyName": "My Cool Extension!",
+    "vendor": "TVendor",
+    "version": "0.0.0",
+    "type": "extension",
+    "target": "SCS,SCIS,SCA",
+    "description": "Copy line item and add it as a separate line in cart. ",
+    "skins": [],
+    "assets": {
+        "img": {
+            "files": []
+        },
+        "fonts": {
+            "files": []
+        },
+        "services": {
+            "files": [
+                "services/CopyLineItem.Service.ss"
+            ]
+        }
+    },
+    "javascript": {
+        "entry_points": {
+            "instore": "Modules/CopyLineItem/JavaScript/TVendor.CopyLineItem.CopyLineItem.js"
+        },
+        "application": {
+            "instore": {
+                "files": [
+                    "Modules/CopyLineItem/JavaScript/TVendor.CopyLineItem.CopyLineItem.js"
+                ]
+            }
+        }
+    },
+    "ssp-libraries": {
+        "entry_point": "Modules/CopyLineItem/SuiteScript/TVendor.CopyLineItem.CopyLineItem.js",
+        "files": [
+            "Modules/CopyLineItem/SuiteScript/TVendor.CopyLineItem.CopyLineItem.js",
+            "Modules/CopyLineItem/SuiteScript/CopyLineItem.ServiceController.js"
+        ]
+    },
+    "local_folder": "Workspace\\CopyLineItem"
+}
